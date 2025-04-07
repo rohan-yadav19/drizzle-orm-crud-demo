@@ -1,0 +1,32 @@
+{
+  "name": "drizzle-orm-crud-demo",
+  "version": "1.0.0",
+  "description": "A minimal Node.js project demonstrating basic CRUD operations using Drizzle ORM.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --watch app.js",
+    "start": "node --env-file=.env app.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan-yadav19/drizzle-orm-crud-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohan-yadav19/drizzle-orm-crud-demo/issues"
+  },
+  "homepage": "https://github.com/rohan-yadav19/drizzle-orm-crud-demo#readme",
+  "dependencies": {
+    "drizzle-orm": "^0.41.0",
+    "mysql2": "^3.14.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.6"
+  }
+}
